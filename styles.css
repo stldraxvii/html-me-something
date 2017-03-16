@@ -1,0 +1,105 @@
+/* THIS MAKES RED BOXES AROUND EVERYTHING
+* {
+    border: 1px solid red ;
+    border-radius: 5px;
+}
+
+*/
+
+
+body {
+    background-color:black;
+    color: white;
+    width: 100%;
+	max-width: 100%;
+}
+
+header, section, footer {
+    margin-left:2em;
+    margin-right:2em;
+    background-color:#222222
+}
+
+section {
+    padding-top: .25em;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    margin-top:1.5em;
+}
+
+header {
+	padding: .25em;
+    margin-top: 1.5em;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1.25em;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+p {
+    text-align:center;
+    font-size:20px;
+}
+
+a:link{
+    color:#288491;
+}
+
+a:visited {
+    color:#8645a0;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color:#3acde0;
+}
+
+h1 {
+    color:#a01497;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size:40px;
+    color:#177209;
+    text-align: center;
+    text-decoration: underline;
+}
+
+figure {
+    margin-left: auto;
+}
+
+ul {
+    font-size:20px;
+}
+
+section ol {
+    text-align: center;
+    font-size: 26px;
+    list-style-position:inside;
+}
+
+.first {
+    font-size: 30px;
+    color:#bcbf0f;
+}
+
+footer {
+	text-align: center;
+    padding: 1em;
+    margin-bottom:1.5em;
+}
