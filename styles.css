@@ -12,12 +12,23 @@ body {
     color: white;
     width: 100%;
 	max-width: 100%;
+    text-shadow: 3px 2px 5px #000000;
 }
 
 header, section, footer {
-    margin-left:2em;
-    margin-right:2em;
-    background-color:#222222
+    margin-left:1em;
+    margin-right:1em;
+    background-color:#222222;
+}
+
+ul {
+    font-size:20px;
+}
+
+section ul {
+    border: 2px solid #888888;
+    background-color:#444444;
+    margin:0 .5em 0 .5em;
 }
 
 section {
@@ -25,11 +36,13 @@ section {
     padding-bottom: 1em;
     margin-bottom: 3em;
     margin-top:1.5em;
+    border: 10px double #888888;
 }
 
 header {
 	padding: .25em;
     margin-top: 1.5em;
+    border: 10px double #aaaaaa;
 }
 
 nav ul {
@@ -74,23 +87,27 @@ h1 {
 
 h2 {
     font-size:40px;
-    color:#177209;
+    color:#bbbbbb;
     text-align: center;
     text-decoration: underline;
+    margin-top:0;
+}
+
+h3 {
+    margin-left:1.5em;
+    font-size: 22px;
+    margin-bottom:.5em;
 }
 
 figure {
     margin-left: auto;
 }
 
-ul {
-    font-size:20px;
-}
-
 section ol {
     text-align: center;
     font-size: 26px;
     list-style-position:inside;
+    color:#bbbbbb;
 }
 
 .first {
@@ -102,4 +119,8 @@ footer {
 	text-align: center;
     padding: 1em;
     margin-bottom:1.5em;
+}
+
+#myname {
+    color:red;
 }
